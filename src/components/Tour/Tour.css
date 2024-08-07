@@ -1,0 +1,26 @@
+table {
+  margin: 30px auto 70px;
+  border-radius: 15px;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+th {
+  background-color: #505e67;
+  color: white;
+  font-size: 1.2em;
+}
+
+tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+@media (width < 1230px) {
+  th {
+    font-size: 1em;
+  }
+}

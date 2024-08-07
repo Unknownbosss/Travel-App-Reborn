@@ -1,0 +1,40 @@
+footer {
+  border: 2px solid #e3e3e3;
+  padding: 6px;
+  border-radius: 12px;
+  background-color: #25252d;
+  color: white;
+  margin: 0 auto;
+}
+
+footer ul {
+  padding: 15px 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  flex-basis: auto;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.25s;
+  padding: 3px;
+}
+
+footer ul li a:hover {
+  border-bottom: 4px solid rgb(244, 238, 238);
+}
+
+@media (width < 1230px) {
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

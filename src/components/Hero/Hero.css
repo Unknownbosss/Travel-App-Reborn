@@ -1,0 +1,16 @@
+section {
+  text-align: center;
+  color: rgb(98, 100, 102);
+}
+
+.description {
+  line-height: 40px;
+  letter-spacing: 0.7px;
+}
+
+@media (width < 1230px) {
+  .description {
+    line-height: 20px;
+    letter-spacing: 0.4px;
+  }
+}
