@@ -4,7 +4,7 @@ Welcome to the Travel App! This project is designed to help users explore travel
 
 ## Key Features
 
-- A redesigned user interface inspired by an anonymous designer from [here](https://github.com/Unknownbosss/travelapp).
+- A redesigned user interface inspired by an anonymous designer which was gotten from [here](https://github.com/Unknownbosss/travelapp).
 - Built with Vite for fast development and optimized production builds.
 - Responsive design with modern web technologies.
 
